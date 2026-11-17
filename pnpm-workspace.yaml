@@ -5,3 +5,6 @@ allowBuilds:
 minimumReleaseAgeExclude:
   - miniflare@4.20260714.0
   - wrangler@4.112.0
+
+overrides:
+  'express>proxy-addr': '2.0.8'
